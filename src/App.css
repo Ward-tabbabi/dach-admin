@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+* {
+  margin: 0;
+}
+/*-------------Navbar-------------------*/
+.navbarContainer {
+  width: 100vw;
+  height: 80px;
+  background-color: white;
+  position: relative;
+  position: fixed;
+  z-index: 99999999999;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.navbarContainer h1 {
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: "Patua One", cursive;
+  color: #643a7a;
+}
+.navbarContainer input {
+  position: absolute;
+  width: 400px;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  margin-left: 350px;
+}
+.navbarContainer ul {
+  position: absolute;
+  margin-left: 1200px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.navbarContainer ul li {
+  margin-left: 50px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+/*------------------admindashboard---------------*/
+.dash-container {
+  margin-left: 10px;
+  margin-top: 100px;
+  background-color: #191d24;
+  border-radius: 8px;
+  border-bottom-right-radius: 150px;
+  width: 17%;
+  padding: 50px;
+}
+.lists {
+  position: absolute;
+  z-index: 5555;
+  top: 100px;
+}
+.dash-container .lists a {
+  text-decoration: none;
+  color: #33c92d;
+}
+
+.dash-container .lists a h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  border-radius: 16px;
+}
+.dash-container .lists h1 {
+  margin-top: 50px;
+  font-size: 35px;
+  color: #76869c;
+  text-align: start !important;
+}
+h1 {
+  margin-top: 50px;
+  color: #76869c;
+  text-align: center;
+}
+.dash-container .buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.dash-container .buttons button {
+  width: 200px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: #33c92d;
+  font-size: 20px;
+}
+
+/*-----------carte-------------*/
+.carte {
+  width: 300px;
+  height: 270px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #191d24;
+  color: #33c92d;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.carte h1 {
+  color: #33c92d;
+}
+.carte img {
+  width: 200px;
+  height: 100px;
+}
+
+.cartes {
+  padding-top: 50px;
+  margin-left: 500px;
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/*-------------------quizlist-----------*/
+.quizlist {
+  margin: 200px 50px;
+  width: 800px;
+  height: 800px;
+  background-color: #f0f1f6;
+  border: 2px solid #76869c;
+  border-radius: 8px;
+  border-bottom-right-radius: 125px;
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.quizlist ul {
+  display: flex;
+  flex-direction: column;
+  color: #33c92d;
+  list-style: none;
+}
+.quizlist ul li {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+}
+/*-------------------quizlist graph-----------*/
+
+/*--------------------courslist----------*/
+.courslist {
+  margin: 200px 50px;
+  width: 800px;
+  height: 800px;
+  background-color: #f0f1f6;
+  border: 2px solid #76869c;
+  border-radius: 8px;
+  border-bottom-right-radius: 125px;
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.courslist ul {
+  display: flex;
+  flex-direction: column;
+  color: #33c92d;
+  list-style: none;
+}
+.courslist ul li {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/*-------------------userlist----------*/
+.userlist {
+  margin: 200px 50px;
+  width: 800px;
+  height: 800px;
+  background-color: #f0f1f6;
+  border: 2px solid #76869c;
+  border-radius: 8px;
+  border-bottom-right-radius: 125px;
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.userlist ul {
+  display: flex;
+  flex-direction: column;
+  color: #33c92d;
+  list-style: none;
+}
+.userlist ul li {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+}
+/*-----------userlist graph --------------*/
+@import url("https://fonts.googleapis.com/css?family=Satisfy|Zilla+Slab");
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -50px;
+  margin-left: 100px;
+  border-radius: 2px;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.6);
+  background: #201c29;
+  font-family: "Zilla Slab", serif;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.card {
+  position: absolute;
+  top: 90px;
+  left: 60px;
+  height: 220px;
+  width: 280px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+.card .header {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  background: #643a7a;
+  color: #fff;
+}
+.card .header .big {
+  position: absolute;
+  font-family: Satisfy, fantasy;
+  font-size: 1.5rem;
+}
+.card .header .small {
+  position: absolute;
+  font-size: 1rem;
+}
+.card .header .title {
+  top: 12px;
+  left: 15px;
+}
+.card .header .date {
+  top: 2.5rem;
+  left: 15px;
+}
+.card .header .type {
+  top: 14px;
+  right: 15px;
+}
+.card .header .value {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 2rem;
+  right: 15px;
+}
+.card .parameter {
+  text-align: right;
+  padding: 10px 0 14px 0;
+}
+.card .parameter span {
+  position: relative;
+  font-size: 0.85rem;
+  color: #606060;
+  line-height: 13px;
+  padding: 0 10px 0 25px;
+}
+.card .parameter span:before {
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  display: block;
+  content: "";
+  width: 11px;
+  height: 4px;
+  border-radius: 3px;
+}
+.card .parameter .red:before {
+  background: #643a7a;
+}
+.card .parameter .blue:before {
+  background: #547496;
+}
+.card .statistic {
+  position: relative;
+  height: 81px;
+  width: 260px;
+  margin: 0 auto;
+}
+.card .statistic .line-1,
+.card .statistic .line-2,
+.card .statistic .line-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: rgba(255, 192, 203, 0.3);
+}
+.card .statistic .line-2 {
+  top: 40px;
+}
+.card .statistic .line-3 {
+  top: inherit;
+  bottom: 0;
+}
+.card .statistic .data svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: 4s dash 0.5s linear forwards;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.card .statistic .data polyline {
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+.card .statistic .data.red polyline {
+  stroke: #643a7a;
+}
+.card .statistic .data.blue polyline {
+  stroke: #547496;
+}
+.card .statistic .data .tooltip {
+  position: absolute;
+  bottom: 13px;
+  left: 50%;
+  transform: translate3d(-50%, 10px, 0);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 11px;
+  color: #fff;
+  padding: 8px 6px;
+  border-radius: 3px;
+  visibility: hidden;
+  opacity: 0;
+  transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s;
+}
+.card .statistic .data .tooltip:after {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 6px;
+  width: 6px;
+  left: 50%;
+  margin-left: -3px;
+  bottom: -3px;
+  transform: rotate(45deg);
+}
+.card .statistic .data [class^="point-"] {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  z-index: 10;
+}
+.card .statistic .data [class^="point-"]:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transform: translate3d(-50%, 0, 0);
+}
+.card .statistic .data.red [class^="point-"],
+.card .statistic .data.red .tooltip,
+.card .statistic .data.red .tooltip:after {
+  background: #643a7a;
+}
+.card .statistic .data.red .point-1 {
+  left: 7px;
+  top: 43px;
+}
+.card .statistic .data.red .point-2 {
+  left: 48px;
+  top: 9px;
+}
+.card .statistic .data.red .point-3 {
+  left: 88px;
+  top: 20px;
+}
+.card .statistic .data.red .point-4 {
+  left: 128px;
+  top: 8px;
+}
+.card .statistic .data.red .point-5 {
+  left: 169px;
+  top: 35px;
+}
+.card .statistic .data.red .point-6 {
+  left: 209px;
+  top: 45px;
+}
+.card .statistic .data.red .point-7 {
+  left: 249px;
+  top: 16px;
+}
+.card .statistic .data.blue [class^="point-"],
+.card .statistic .data.blue .tooltip,
+.card .statistic .data.blue .tooltip:after {
+  background: #547496;
+}
+.card .statistic .data.blue .point-1 {
+  left: 7px;
+  top: 58px;
+}
+.card .statistic .data.blue .point-2 {
+  left: 48px;
+  top: 47px;
+}
+.card .statistic .data.blue .point-3 {
+  left: 88px;
+  top: 62px;
+}
+.card .statistic .data.blue .point-4 {
+  left: 128px;
+  top: 52px;
+}
+.card .statistic .data.blue .point-5 {
+  left: 169px;
+  top: 58px;
+}
+.card .statistic .data.blue .point-6 {
+  left: 209px;
+  top: 71px;
+}
+.card .statistic .data.blue .point-7 {
+  left: 249px;
+  top: 61px;
+}
+.card .days {
+  width: 280px;
+  margin: 0 auto;
+}
+.card .days .day {
+  display: block;
+  float: left;
+  width: 14.2857142857%;
+  font-size: 9px;
+  color: #949494;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.userdash h1 {
+  margin-top: 100px;
+  font-size: 40px;
+}
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: 300px;
+  margin-top: 600px;
+  background-color: #191d24;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer h1 {
+  margin-top: 50px;
+  font-size: 30px;
+  color: #33c92d;
+}
+
+.footer .contact h3 {
+  font-size: 20px;
+  color: #643a7a;
+}
+
+.footer .about_us p {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #643a7a;
+  text-align: center;
+}
+.footer .login {
+  margin-right: 100px;
+  padding-top: 10px;
+}
+.footer .login h1 {
+  text-align: center;
+}
+.footer .login button {
+  margin-top: 50px;
+  width: 100px;
+  padding: 11px;
+  border-radius: 10px;
+  background-color: #33c92d;
+}
